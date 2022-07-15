@@ -5,6 +5,7 @@ import { TableContext } from '../context/Materiales/TableContext'
 import Omc23Cruds from '../pages/omc23Cruds'
 import PageOmc23 from '../pages/PageOmc23'
 import PageOmc34 from '../pages/PageOmc34'
+import PageOmc35 from '../pages/PageOmc35'
 import PageOmc41 from '../pages/PageOmc41'
 import { TableContainer } from "../components/Materiales/TableContainer";
 import { Loading } from "../components/Materiales/Loading";
@@ -24,6 +25,7 @@ function Rutas() {
                 <Route path="/userList" element={<Omc23Cruds />} />
                 <Route path="/tablaReact" element={<PageOmc23 />} />
                 <Route path="/omniclass34" element={<PageOmc34 />} />
+                <Route path="/omniclass35" element={<PageOmc35 />} />
                 <Route path="/omniclass41" element={<PageOmc41 />} />
                 <Route path="/omniclass" element={loading ? <Loading /> : <TableContainer />} />
                 <Route path="/listaDeMateriales" element={<ListaDeMateriales />} />

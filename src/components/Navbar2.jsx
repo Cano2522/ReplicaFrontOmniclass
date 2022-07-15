@@ -122,7 +122,7 @@ export default function Navbar() {
                 <VscOrganization className="bx bx-folder nav_icon" />
                 <span className="nav_name">ROLES ORGANIZACIONALES</span>
               </NavLink>
-              <NavLink to="/#" className="nav_link">
+              <NavLink to="/omniclass35" className="nav_link">
                 <BsTools className="bx bx-bar-chart-alt-2 nav_icon" />
                 <span className="nav_name">HERRAMIENTA Y EQUIPO</span>
               </NavLink>

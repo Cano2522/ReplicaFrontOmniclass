@@ -15,6 +15,7 @@ import { TableProvider } from "./context/Materiales/TableContext";
 import { Container } from "./components/Materiales/Container";
 import { LoginProvider } from "./context/LoginContext";
 import { useLogin } from "./context/LoginContext";
+import { Omc35Provider } from "./context/omc35/ContextOmc35";
 function App() {
   
   const {dataToken,authentication}= useLogin()
@@ -39,7 +40,9 @@ function App() {
                 <Omc41Provider>
                 <Omc41Provider>
                   <Omc34Provider>
-                    <Rutas />
+                    <Omc35Provider>
+                      <Rutas />
+                    </Omc35Provider>
                   </Omc34Provider>
                 </Omc41Provider>
                 </Omc41Provider>
